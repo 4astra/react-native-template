@@ -1,0 +1,375 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SurveyPage renders as expected 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <View
+    style={
+      Object {
+        "backgroundColor": "#F5FCFF",
+        "flex": 1,
+      }
+    }
+  >
+    <FlatList
+      data={Array []}
+      disableVirtualization={false}
+      horizontal={false}
+      initialNumToRender={10}
+      keyExtractor={[Function]}
+      maxToRenderPerBatch={10}
+      numColumns={1}
+      onEndReachedThreshold={2}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      style={
+        Object {
+          "marginTop": 15,
+        }
+      }
+      updateCellsBatchingPeriod={50}
+      windowSize={21}
+    />
+  </View>,
+  "nodes": Array [
+    <View
+      style={
+        Object {
+          "backgroundColor": "#F5FCFF",
+          "flex": 1,
+        }
+      }
+    >
+      <FlatList
+        data={Array []}
+        disableVirtualization={false}
+        horizontal={false}
+        initialNumToRender={10}
+        keyExtractor={[Function]}
+        maxToRenderPerBatch={10}
+        numColumns={1}
+        onEndReachedThreshold={2}
+        renderItem={[Function]}
+        scrollEventThrottle={50}
+        style={
+          Object {
+            "marginTop": 15,
+          }
+        }
+        updateCellsBatchingPeriod={50}
+        windowSize={21}
+      />
+    </View>,
+  ],
+  "options": Object {
+    "context": Object {
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+    },
+  },
+  "renderer": ReactShallowRenderer {
+    "_context": Object {
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+    },
+    "_element": <SurveyPage
+      actions={
+        Object {
+          "default": [Function],
+          "survey": [Function],
+        }
+      }
+      info={
+        Object {
+          "code": "XX1",
+          "name": "Melun",
+        }
+      }
+      result={Array []}
+    />,
+    "_instance": SurveyPage {
+      "context": Object {
+        "store": Object {
+          "clearActions": [Function],
+          "dispatch": [Function],
+          "getActions": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+        },
+      },
+      "props": Object {
+        "actions": Object {
+          "default": [Function],
+          "survey": [Function],
+        },
+        "info": Object {
+          "code": "XX1",
+          "name": "Melun",
+        },
+        "result": Array [],
+      },
+      "refs": Object {},
+      "state": Object {},
+      "updater": Updater {
+        "_renderer": [Circular],
+      },
+    },
+    "_newState": null,
+    "_rendered": <View
+      style={
+        Object {
+          "backgroundColor": "#F5FCFF",
+          "flex": 1,
+        }
+      }
+    >
+      <FlatList
+        data={Array []}
+        disableVirtualization={false}
+        horizontal={false}
+        initialNumToRender={10}
+        keyExtractor={[Function]}
+        maxToRenderPerBatch={10}
+        numColumns={1}
+        onEndReachedThreshold={2}
+        renderItem={[Function]}
+        scrollEventThrottle={50}
+        style={
+          Object {
+            "marginTop": 15,
+          }
+        }
+        updateCellsBatchingPeriod={50}
+        windowSize={21}
+      />
+    </View>,
+    "_rendering": false,
+    "_updater": Updater {
+      "_renderer": [Circular],
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <SurveyPage
+    actions={
+      Object {
+        "default": [Function],
+        "survey": [Function],
+      }
+    }
+    info={
+      Object {
+        "code": "XX1",
+        "name": "Melun",
+      }
+    }
+    result={Array []}
+  />,
+}
+`;
+
+exports[`SurveyPage renders as expected when code is null 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <View
+    style={
+      Object {
+        "backgroundColor": "#F5FCFF",
+        "flex": 1,
+      }
+    }
+  >
+    <FlatList
+      data={Array []}
+      disableVirtualization={false}
+      horizontal={false}
+      initialNumToRender={10}
+      keyExtractor={[Function]}
+      maxToRenderPerBatch={10}
+      numColumns={1}
+      onEndReachedThreshold={2}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      style={
+        Object {
+          "marginTop": 15,
+        }
+      }
+      updateCellsBatchingPeriod={50}
+      windowSize={21}
+    />
+  </View>,
+  "nodes": Array [
+    <View
+      style={
+        Object {
+          "backgroundColor": "#F5FCFF",
+          "flex": 1,
+        }
+      }
+    >
+      <FlatList
+        data={Array []}
+        disableVirtualization={false}
+        horizontal={false}
+        initialNumToRender={10}
+        keyExtractor={[Function]}
+        maxToRenderPerBatch={10}
+        numColumns={1}
+        onEndReachedThreshold={2}
+        renderItem={[Function]}
+        scrollEventThrottle={50}
+        style={
+          Object {
+            "marginTop": 15,
+          }
+        }
+        updateCellsBatchingPeriod={50}
+        windowSize={21}
+      />
+    </View>,
+  ],
+  "options": Object {
+    "context": Object {
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+    },
+  },
+  "renderer": ReactShallowRenderer {
+    "_context": Object {
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+    },
+    "_element": <SurveyPage
+      actions={
+        Object {
+          "default": [Function],
+          "survey": [Function],
+        }
+      }
+      info={
+        Object {
+          "code": null,
+          "name": "Melun",
+        }
+      }
+      result={Array []}
+    />,
+    "_instance": SurveyPage {
+      "context": Object {
+        "store": Object {
+          "clearActions": [Function],
+          "dispatch": [Function],
+          "getActions": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+        },
+      },
+      "props": Object {
+        "actions": Object {
+          "default": [Function],
+          "survey": [Function],
+        },
+        "info": Object {
+          "code": null,
+          "name": "Melun",
+        },
+        "result": Array [],
+      },
+      "refs": Object {},
+      "state": Object {},
+      "updater": Updater {
+        "_renderer": [Circular],
+      },
+    },
+    "_newState": null,
+    "_rendered": <View
+      style={
+        Object {
+          "backgroundColor": "#F5FCFF",
+          "flex": 1,
+        }
+      }
+    >
+      <FlatList
+        data={Array []}
+        disableVirtualization={false}
+        horizontal={false}
+        initialNumToRender={10}
+        keyExtractor={[Function]}
+        maxToRenderPerBatch={10}
+        numColumns={1}
+        onEndReachedThreshold={2}
+        renderItem={[Function]}
+        scrollEventThrottle={50}
+        style={
+          Object {
+            "marginTop": 15,
+          }
+        }
+        updateCellsBatchingPeriod={50}
+        windowSize={21}
+      />
+    </View>,
+    "_rendering": false,
+    "_updater": Updater {
+      "_renderer": [Circular],
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <SurveyPage
+    actions={
+      Object {
+        "default": [Function],
+        "survey": [Function],
+      }
+    }
+    info={
+      Object {
+        "code": null,
+        "name": "Melun",
+      }
+    }
+    result={Array []}
+  />,
+}
+`;

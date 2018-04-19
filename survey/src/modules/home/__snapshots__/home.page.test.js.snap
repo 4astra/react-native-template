@@ -1,0 +1,1271 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List Survey of HomePage renders as expected when list is filled 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <View
+    style={
+      Object {
+        "backgroundColor": "#F5FCFF",
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "white",
+          "borderColor": "#C7C7CD",
+          "borderRadius": 7,
+          "borderWidth": 0.5,
+          "flexDirection": "row",
+          "height": 35,
+          "justifyContent": "center",
+          "marginBottom": 10,
+          "marginLeft": 5,
+          "marginRight": 5,
+          "marginTop": 10,
+          "width": 740,
+        }
+      }
+    >
+      <TextInput
+        allowFontScaling={true}
+        autoCorrect={false}
+        autoFocus={false}
+        onChangeText={[Function]}
+        onSubmitEditing={[Function]}
+        placeholder="Type name or code"
+        style={
+          Object {
+            "fontSize": 13,
+            "marginLeft": 15,
+            "marginRight": 5,
+            "width": 740,
+          }
+        }
+      />
+    </View>
+    <FlatList
+      data={
+        Array [
+          Object {
+            "code": "XX3",
+            "name": "Melun",
+          },
+          Object {
+            "code": "XX2",
+            "name": "Chartres",
+          },
+        ]
+      }
+      disableVirtualization={false}
+      horizontal={false}
+      initialNumToRender={10}
+      keyExtractor={[Function]}
+      maxToRenderPerBatch={10}
+      numColumns={1}
+      onEndReachedThreshold={2}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      updateCellsBatchingPeriod={50}
+      windowSize={21}
+    />
+  </View>,
+  "nodes": Array [
+    <View
+      style={
+        Object {
+          "backgroundColor": "#F5FCFF",
+          "flex": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "white",
+            "borderColor": "#C7C7CD",
+            "borderRadius": 7,
+            "borderWidth": 0.5,
+            "flexDirection": "row",
+            "height": 35,
+            "justifyContent": "center",
+            "marginBottom": 10,
+            "marginLeft": 5,
+            "marginRight": 5,
+            "marginTop": 10,
+            "width": 740,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          autoCorrect={false}
+          autoFocus={false}
+          onChangeText={[Function]}
+          onSubmitEditing={[Function]}
+          placeholder="Type name or code"
+          style={
+            Object {
+              "fontSize": 13,
+              "marginLeft": 15,
+              "marginRight": 5,
+              "width": 740,
+            }
+          }
+        />
+      </View>
+      <FlatList
+        data={
+          Array [
+            Object {
+              "code": "XX3",
+              "name": "Melun",
+            },
+            Object {
+              "code": "XX2",
+              "name": "Chartres",
+            },
+          ]
+        }
+        disableVirtualization={false}
+        horizontal={false}
+        initialNumToRender={10}
+        keyExtractor={[Function]}
+        maxToRenderPerBatch={10}
+        numColumns={1}
+        onEndReachedThreshold={2}
+        renderItem={[Function]}
+        scrollEventThrottle={50}
+        updateCellsBatchingPeriod={50}
+        windowSize={21}
+      />
+    </View>,
+  ],
+  "options": Object {
+    "context": Object {
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+    },
+  },
+  "renderer": ReactShallowRenderer {
+    "_context": Object {
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+    },
+    "_element": <HomePage
+      actions={
+        Object {
+          "default": [Function],
+          "list": [Function],
+          "search": [Function],
+          "updateSelected": [Function],
+        }
+      }
+      isSearching={false}
+      list={
+        Array [
+          Object {
+            "code": "XX3",
+            "name": "Melun",
+          },
+          Object {
+            "code": "XX2",
+            "name": "Chartres",
+          },
+        ]
+      }
+      searchResult={Array []}
+    />,
+    "_instance": HomePage {
+      "context": Object {
+        "store": Object {
+          "clearActions": [Function],
+          "dispatch": [Function],
+          "getActions": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+        },
+      },
+      "props": Object {
+        "actions": Object {
+          "default": [Function],
+          "list": [Function],
+          "search": [Function],
+          "updateSelected": [Function],
+        },
+        "isSearching": false,
+        "list": Array [
+          Object {
+            "code": "XX3",
+            "name": "Melun",
+          },
+          Object {
+            "code": "XX2",
+            "name": "Chartres",
+          },
+        ],
+        "searchResult": Array [],
+      },
+      "refs": Object {},
+      "state": Object {},
+      "updater": Updater {
+        "_renderer": [Circular],
+      },
+    },
+    "_newState": null,
+    "_rendered": <View
+      style={
+        Object {
+          "backgroundColor": "#F5FCFF",
+          "flex": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "white",
+            "borderColor": "#C7C7CD",
+            "borderRadius": 7,
+            "borderWidth": 0.5,
+            "flexDirection": "row",
+            "height": 35,
+            "justifyContent": "center",
+            "marginBottom": 10,
+            "marginLeft": 5,
+            "marginRight": 5,
+            "marginTop": 10,
+            "width": 740,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          autoCorrect={false}
+          autoFocus={false}
+          onChangeText={[Function]}
+          onSubmitEditing={[Function]}
+          placeholder="Type name or code"
+          style={
+            Object {
+              "fontSize": 13,
+              "marginLeft": 15,
+              "marginRight": 5,
+              "width": 740,
+            }
+          }
+        />
+      </View>
+      <FlatList
+        data={
+          Array [
+            Object {
+              "code": "XX3",
+              "name": "Melun",
+            },
+            Object {
+              "code": "XX2",
+              "name": "Chartres",
+            },
+          ]
+        }
+        disableVirtualization={false}
+        horizontal={false}
+        initialNumToRender={10}
+        keyExtractor={[Function]}
+        maxToRenderPerBatch={10}
+        numColumns={1}
+        onEndReachedThreshold={2}
+        renderItem={[Function]}
+        scrollEventThrottle={50}
+        updateCellsBatchingPeriod={50}
+        windowSize={21}
+      />
+    </View>,
+    "_rendering": false,
+    "_updater": Updater {
+      "_renderer": [Circular],
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <HomePage
+    actions={
+      Object {
+        "default": [Function],
+        "list": [Function],
+        "search": [Function],
+        "updateSelected": [Function],
+      }
+    }
+    isSearching={false}
+    list={
+      Array [
+        Object {
+          "code": "XX3",
+          "name": "Melun",
+        },
+        Object {
+          "code": "XX2",
+          "name": "Chartres",
+        },
+      ]
+    }
+    searchResult={Array []}
+  />,
+}
+`;
+
+exports[`List Survey of HomePage renders not as expected when list is null 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <View
+    style={
+      Object {
+        "backgroundColor": "#F5FCFF",
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "white",
+          "borderColor": "#C7C7CD",
+          "borderRadius": 7,
+          "borderWidth": 0.5,
+          "flexDirection": "row",
+          "height": 35,
+          "justifyContent": "center",
+          "marginBottom": 10,
+          "marginLeft": 5,
+          "marginRight": 5,
+          "marginTop": 10,
+          "width": 740,
+        }
+      }
+    >
+      <TextInput
+        allowFontScaling={true}
+        autoCorrect={false}
+        autoFocus={false}
+        onChangeText={[Function]}
+        onSubmitEditing={[Function]}
+        placeholder="Type name or code"
+        style={
+          Object {
+            "fontSize": 13,
+            "marginLeft": 15,
+            "marginRight": 5,
+            "width": 740,
+          }
+        }
+      />
+    </View>
+    <FlatList
+      data={Array []}
+      disableVirtualization={false}
+      horizontal={false}
+      initialNumToRender={10}
+      keyExtractor={[Function]}
+      maxToRenderPerBatch={10}
+      numColumns={1}
+      onEndReachedThreshold={2}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      updateCellsBatchingPeriod={50}
+      windowSize={21}
+    />
+  </View>,
+  "nodes": Array [
+    <View
+      style={
+        Object {
+          "backgroundColor": "#F5FCFF",
+          "flex": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "white",
+            "borderColor": "#C7C7CD",
+            "borderRadius": 7,
+            "borderWidth": 0.5,
+            "flexDirection": "row",
+            "height": 35,
+            "justifyContent": "center",
+            "marginBottom": 10,
+            "marginLeft": 5,
+            "marginRight": 5,
+            "marginTop": 10,
+            "width": 740,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          autoCorrect={false}
+          autoFocus={false}
+          onChangeText={[Function]}
+          onSubmitEditing={[Function]}
+          placeholder="Type name or code"
+          style={
+            Object {
+              "fontSize": 13,
+              "marginLeft": 15,
+              "marginRight": 5,
+              "width": 740,
+            }
+          }
+        />
+      </View>
+      <FlatList
+        data={Array []}
+        disableVirtualization={false}
+        horizontal={false}
+        initialNumToRender={10}
+        keyExtractor={[Function]}
+        maxToRenderPerBatch={10}
+        numColumns={1}
+        onEndReachedThreshold={2}
+        renderItem={[Function]}
+        scrollEventThrottle={50}
+        updateCellsBatchingPeriod={50}
+        windowSize={21}
+      />
+    </View>,
+  ],
+  "options": Object {
+    "context": Object {
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+    },
+  },
+  "renderer": ReactShallowRenderer {
+    "_context": Object {
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+    },
+    "_element": <HomePage
+      actions={
+        Object {
+          "default": [Function],
+          "list": [Function],
+          "search": [Function],
+          "updateSelected": [Function],
+        }
+      }
+      isSearching={false}
+      list={Array []}
+      searchResult={Array []}
+    />,
+    "_instance": HomePage {
+      "context": Object {
+        "store": Object {
+          "clearActions": [Function],
+          "dispatch": [Function],
+          "getActions": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+        },
+      },
+      "props": Object {
+        "actions": Object {
+          "default": [Function],
+          "list": [Function],
+          "search": [Function],
+          "updateSelected": [Function],
+        },
+        "isSearching": false,
+        "list": Array [],
+        "searchResult": Array [],
+      },
+      "refs": Object {},
+      "state": Object {},
+      "updater": Updater {
+        "_renderer": [Circular],
+      },
+    },
+    "_newState": null,
+    "_rendered": <View
+      style={
+        Object {
+          "backgroundColor": "#F5FCFF",
+          "flex": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "white",
+            "borderColor": "#C7C7CD",
+            "borderRadius": 7,
+            "borderWidth": 0.5,
+            "flexDirection": "row",
+            "height": 35,
+            "justifyContent": "center",
+            "marginBottom": 10,
+            "marginLeft": 5,
+            "marginRight": 5,
+            "marginTop": 10,
+            "width": 740,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          autoCorrect={false}
+          autoFocus={false}
+          onChangeText={[Function]}
+          onSubmitEditing={[Function]}
+          placeholder="Type name or code"
+          style={
+            Object {
+              "fontSize": 13,
+              "marginLeft": 15,
+              "marginRight": 5,
+              "width": 740,
+            }
+          }
+        />
+      </View>
+      <FlatList
+        data={Array []}
+        disableVirtualization={false}
+        horizontal={false}
+        initialNumToRender={10}
+        keyExtractor={[Function]}
+        maxToRenderPerBatch={10}
+        numColumns={1}
+        onEndReachedThreshold={2}
+        renderItem={[Function]}
+        scrollEventThrottle={50}
+        updateCellsBatchingPeriod={50}
+        windowSize={21}
+      />
+    </View>,
+    "_rendering": false,
+    "_updater": Updater {
+      "_renderer": [Circular],
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <HomePage
+    actions={
+      Object {
+        "default": [Function],
+        "list": [Function],
+        "search": [Function],
+        "updateSelected": [Function],
+      }
+    }
+    isSearching={false}
+    list={Array []}
+    searchResult={Array []}
+  />,
+}
+`;
+
+exports[`Search HomePage Search renders as expected when search is filled 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <View
+    style={
+      Object {
+        "backgroundColor": "#F5FCFF",
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "white",
+          "borderColor": "#C7C7CD",
+          "borderRadius": 7,
+          "borderWidth": 0.5,
+          "flexDirection": "row",
+          "height": 35,
+          "justifyContent": "center",
+          "marginBottom": 10,
+          "marginLeft": 5,
+          "marginRight": 5,
+          "marginTop": 10,
+          "width": 740,
+        }
+      }
+    >
+      <TextInput
+        allowFontScaling={true}
+        autoCorrect={false}
+        autoFocus={false}
+        onChangeText={[Function]}
+        onSubmitEditing={[Function]}
+        placeholder="Type name or code"
+        style={
+          Object {
+            "fontSize": 13,
+            "marginLeft": 15,
+            "marginRight": 5,
+            "width": 740,
+          }
+        }
+      />
+    </View>
+    <FlatList
+      data={
+        Array [
+          Object {
+            "code": "XX3",
+            "name": "Melun",
+          },
+        ]
+      }
+      disableVirtualization={false}
+      horizontal={false}
+      initialNumToRender={10}
+      keyExtractor={[Function]}
+      maxToRenderPerBatch={10}
+      numColumns={1}
+      onEndReachedThreshold={2}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      updateCellsBatchingPeriod={50}
+      windowSize={21}
+    />
+  </View>,
+  "nodes": Array [
+    <View
+      style={
+        Object {
+          "backgroundColor": "#F5FCFF",
+          "flex": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "white",
+            "borderColor": "#C7C7CD",
+            "borderRadius": 7,
+            "borderWidth": 0.5,
+            "flexDirection": "row",
+            "height": 35,
+            "justifyContent": "center",
+            "marginBottom": 10,
+            "marginLeft": 5,
+            "marginRight": 5,
+            "marginTop": 10,
+            "width": 740,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          autoCorrect={false}
+          autoFocus={false}
+          onChangeText={[Function]}
+          onSubmitEditing={[Function]}
+          placeholder="Type name or code"
+          style={
+            Object {
+              "fontSize": 13,
+              "marginLeft": 15,
+              "marginRight": 5,
+              "width": 740,
+            }
+          }
+        />
+      </View>
+      <FlatList
+        data={
+          Array [
+            Object {
+              "code": "XX3",
+              "name": "Melun",
+            },
+          ]
+        }
+        disableVirtualization={false}
+        horizontal={false}
+        initialNumToRender={10}
+        keyExtractor={[Function]}
+        maxToRenderPerBatch={10}
+        numColumns={1}
+        onEndReachedThreshold={2}
+        renderItem={[Function]}
+        scrollEventThrottle={50}
+        updateCellsBatchingPeriod={50}
+        windowSize={21}
+      />
+    </View>,
+  ],
+  "options": Object {
+    "context": Object {
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+    },
+  },
+  "renderer": ReactShallowRenderer {
+    "_context": Object {
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+    },
+    "_element": <HomePage
+      actions={
+        Object {
+          "default": [Function],
+          "list": [Function],
+          "search": [Function],
+          "updateSelected": [Function],
+        }
+      }
+      isSearching={true}
+      list={
+        Array [
+          Object {
+            "code": "XX3",
+            "name": "Melun",
+          },
+          Object {
+            "code": "XX2",
+            "name": "Chartres",
+          },
+        ]
+      }
+      searchResult={
+        Array [
+          Object {
+            "code": "XX3",
+            "name": "Melun",
+          },
+        ]
+      }
+    />,
+    "_instance": HomePage {
+      "context": Object {
+        "store": Object {
+          "clearActions": [Function],
+          "dispatch": [Function],
+          "getActions": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+        },
+      },
+      "props": Object {
+        "actions": Object {
+          "default": [Function],
+          "list": [Function],
+          "search": [Function],
+          "updateSelected": [Function],
+        },
+        "isSearching": true,
+        "list": Array [
+          Object {
+            "code": "XX3",
+            "name": "Melun",
+          },
+          Object {
+            "code": "XX2",
+            "name": "Chartres",
+          },
+        ],
+        "searchResult": Array [
+          Object {
+            "code": "XX3",
+            "name": "Melun",
+          },
+        ],
+      },
+      "refs": Object {},
+      "state": Object {},
+      "updater": Updater {
+        "_renderer": [Circular],
+      },
+    },
+    "_newState": null,
+    "_rendered": <View
+      style={
+        Object {
+          "backgroundColor": "#F5FCFF",
+          "flex": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "white",
+            "borderColor": "#C7C7CD",
+            "borderRadius": 7,
+            "borderWidth": 0.5,
+            "flexDirection": "row",
+            "height": 35,
+            "justifyContent": "center",
+            "marginBottom": 10,
+            "marginLeft": 5,
+            "marginRight": 5,
+            "marginTop": 10,
+            "width": 740,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          autoCorrect={false}
+          autoFocus={false}
+          onChangeText={[Function]}
+          onSubmitEditing={[Function]}
+          placeholder="Type name or code"
+          style={
+            Object {
+              "fontSize": 13,
+              "marginLeft": 15,
+              "marginRight": 5,
+              "width": 740,
+            }
+          }
+        />
+      </View>
+      <FlatList
+        data={
+          Array [
+            Object {
+              "code": "XX3",
+              "name": "Melun",
+            },
+          ]
+        }
+        disableVirtualization={false}
+        horizontal={false}
+        initialNumToRender={10}
+        keyExtractor={[Function]}
+        maxToRenderPerBatch={10}
+        numColumns={1}
+        onEndReachedThreshold={2}
+        renderItem={[Function]}
+        scrollEventThrottle={50}
+        updateCellsBatchingPeriod={50}
+        windowSize={21}
+      />
+    </View>,
+    "_rendering": false,
+    "_updater": Updater {
+      "_renderer": [Circular],
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <HomePage
+    actions={
+      Object {
+        "default": [Function],
+        "list": [Function],
+        "search": [Function],
+        "updateSelected": [Function],
+      }
+    }
+    isSearching={true}
+    list={
+      Array [
+        Object {
+          "code": "XX3",
+          "name": "Melun",
+        },
+        Object {
+          "code": "XX2",
+          "name": "Chartres",
+        },
+      ]
+    }
+    searchResult={
+      Array [
+        Object {
+          "code": "XX3",
+          "name": "Melun",
+        },
+      ]
+    }
+  />,
+}
+`;
+
+exports[`Search HomePage Search renders not as expected when search is null 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <View
+    style={
+      Object {
+        "backgroundColor": "#F5FCFF",
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "white",
+          "borderColor": "#C7C7CD",
+          "borderRadius": 7,
+          "borderWidth": 0.5,
+          "flexDirection": "row",
+          "height": 35,
+          "justifyContent": "center",
+          "marginBottom": 10,
+          "marginLeft": 5,
+          "marginRight": 5,
+          "marginTop": 10,
+          "width": 740,
+        }
+      }
+    >
+      <TextInput
+        allowFontScaling={true}
+        autoCorrect={false}
+        autoFocus={false}
+        onChangeText={[Function]}
+        onSubmitEditing={[Function]}
+        placeholder="Type name or code"
+        style={
+          Object {
+            "fontSize": 13,
+            "marginLeft": 15,
+            "marginRight": 5,
+            "width": 740,
+          }
+        }
+      />
+    </View>
+    <FlatList
+      data={Array []}
+      disableVirtualization={false}
+      horizontal={false}
+      initialNumToRender={10}
+      keyExtractor={[Function]}
+      maxToRenderPerBatch={10}
+      numColumns={1}
+      onEndReachedThreshold={2}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      updateCellsBatchingPeriod={50}
+      windowSize={21}
+    />
+  </View>,
+  "nodes": Array [
+    <View
+      style={
+        Object {
+          "backgroundColor": "#F5FCFF",
+          "flex": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "white",
+            "borderColor": "#C7C7CD",
+            "borderRadius": 7,
+            "borderWidth": 0.5,
+            "flexDirection": "row",
+            "height": 35,
+            "justifyContent": "center",
+            "marginBottom": 10,
+            "marginLeft": 5,
+            "marginRight": 5,
+            "marginTop": 10,
+            "width": 740,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          autoCorrect={false}
+          autoFocus={false}
+          onChangeText={[Function]}
+          onSubmitEditing={[Function]}
+          placeholder="Type name or code"
+          style={
+            Object {
+              "fontSize": 13,
+              "marginLeft": 15,
+              "marginRight": 5,
+              "width": 740,
+            }
+          }
+        />
+      </View>
+      <FlatList
+        data={Array []}
+        disableVirtualization={false}
+        horizontal={false}
+        initialNumToRender={10}
+        keyExtractor={[Function]}
+        maxToRenderPerBatch={10}
+        numColumns={1}
+        onEndReachedThreshold={2}
+        renderItem={[Function]}
+        scrollEventThrottle={50}
+        updateCellsBatchingPeriod={50}
+        windowSize={21}
+      />
+    </View>,
+  ],
+  "options": Object {
+    "context": Object {
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+    },
+  },
+  "renderer": ReactShallowRenderer {
+    "_context": Object {
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+    },
+    "_element": <HomePage
+      actions={
+        Object {
+          "default": [Function],
+          "list": [Function],
+          "search": [Function],
+          "updateSelected": [Function],
+        }
+      }
+      isSearching={true}
+      list={
+        Array [
+          Object {
+            "code": "XX3",
+            "name": "Melun",
+          },
+          Object {
+            "code": "XX2",
+            "name": "Chartres",
+          },
+        ]
+      }
+      searchResult={Array []}
+    />,
+    "_instance": HomePage {
+      "context": Object {
+        "store": Object {
+          "clearActions": [Function],
+          "dispatch": [Function],
+          "getActions": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+        },
+      },
+      "props": Object {
+        "actions": Object {
+          "default": [Function],
+          "list": [Function],
+          "search": [Function],
+          "updateSelected": [Function],
+        },
+        "isSearching": true,
+        "list": Array [
+          Object {
+            "code": "XX3",
+            "name": "Melun",
+          },
+          Object {
+            "code": "XX2",
+            "name": "Chartres",
+          },
+        ],
+        "searchResult": Array [],
+      },
+      "refs": Object {},
+      "state": Object {},
+      "updater": Updater {
+        "_renderer": [Circular],
+      },
+    },
+    "_newState": null,
+    "_rendered": <View
+      style={
+        Object {
+          "backgroundColor": "#F5FCFF",
+          "flex": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "white",
+            "borderColor": "#C7C7CD",
+            "borderRadius": 7,
+            "borderWidth": 0.5,
+            "flexDirection": "row",
+            "height": 35,
+            "justifyContent": "center",
+            "marginBottom": 10,
+            "marginLeft": 5,
+            "marginRight": 5,
+            "marginTop": 10,
+            "width": 740,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          autoCorrect={false}
+          autoFocus={false}
+          onChangeText={[Function]}
+          onSubmitEditing={[Function]}
+          placeholder="Type name or code"
+          style={
+            Object {
+              "fontSize": 13,
+              "marginLeft": 15,
+              "marginRight": 5,
+              "width": 740,
+            }
+          }
+        />
+      </View>
+      <FlatList
+        data={Array []}
+        disableVirtualization={false}
+        horizontal={false}
+        initialNumToRender={10}
+        keyExtractor={[Function]}
+        maxToRenderPerBatch={10}
+        numColumns={1}
+        onEndReachedThreshold={2}
+        renderItem={[Function]}
+        scrollEventThrottle={50}
+        updateCellsBatchingPeriod={50}
+        windowSize={21}
+      />
+    </View>,
+    "_rendering": false,
+    "_updater": Updater {
+      "_renderer": [Circular],
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <HomePage
+    actions={
+      Object {
+        "default": [Function],
+        "list": [Function],
+        "search": [Function],
+        "updateSelected": [Function],
+      }
+    }
+    isSearching={true}
+    list={
+      Array [
+        Object {
+          "code": "XX3",
+          "name": "Melun",
+        },
+        Object {
+          "code": "XX2",
+          "name": "Chartres",
+        },
+      ]
+    }
+    searchResult={Array []}
+  />,
+}
+`;
