@@ -3,8 +3,6 @@ React Native
 
 ## Setup
 
-To avoid losing time, you will use a simple create-react-app bootstrap.
-
 ```bash
 cd hoat-rn-test/survey
 yarn install
