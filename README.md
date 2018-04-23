@@ -1,5 +1,6 @@
-# hoat-rn-test
-React Native
+# react-native-template
+
+React Native Template
 
 ## Setup
 
